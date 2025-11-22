@@ -220,7 +220,7 @@ until false; do
   fi
   
   test $((thirtySecondsCount%20)) == 0 && test "${createEntity}" == "true" && fanSpeedReport "${fanPercent}" "${fanLevel}" "${fanMode}" "${cpuTemp}" "${CorF}"
-  sleep 30
+  sleep 120
   thirtySecondsCount=$((thirtySecondsCount + 1))
   #thirtySecondsCount mod 20 will be 0 once every 20 times, or approx. 10 minutes.
 done
