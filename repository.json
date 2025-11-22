@@ -1,5 +1,5 @@
 {
-  "name": "ArgonOne Active Cooling",
-  "url": "https://github.com/adamoutler/HassOSArgonOne",
-  "maintainer": "Adam Outler <adamoutler@adamoutler.com>"
+  "name": "ArgonOne Active Cooling Standalone",
+  "url": "https://github.com/mfgea/HassOSArgonOneAddon",
+  "maintainer": "Matias Gea <matigea@gmail.com>"
 }
